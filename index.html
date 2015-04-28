@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Giffinator</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <style>
+        body {
+          background: HSLA(0, 0%, 14%, 1);
+          color: white;
+          font-family: 'Lato';
+          font-weight: 200;
+          font-size: 14px;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        li {
+          padding: .5em;
+        }
+
+        li.clickable:hover {
+          background-color: hsl(0, 0%, 10%);
+        }
+
+        li + li {
+          border-top: 1px solid hsl(0, 0%, 20%);
+        }
+
+        .credit {
+          font-size: 12px;
+          color: hsl(0, 0%, 35%);
+        }
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="clickable"><a href="http://localhost:8000/" target="_blank">Uploader</a></li>
+      <li class="credit">Icon credit goes to Joe Mortell from the Noun Project </li>
+    </ul>
+  </body>
+</html>
